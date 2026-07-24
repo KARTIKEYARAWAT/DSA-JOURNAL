@@ -8,7 +8,7 @@ class Solution {
         q.offer(entrance);
         maze[entrance[0]][entrance[1]]='+';
         int s=0;
-        while(!q.isEmpty()){
+        while(!q.isEmpty()){  
             int size=q.size();
             s++;
             for(int i=0;i<size;i++){
